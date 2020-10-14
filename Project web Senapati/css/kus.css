@@ -1,0 +1,269 @@
+hr{
+    width: 100px;
+    border-top: 1px solid #8860d0;
+    border-top-width: 2px;
+    border-top-style: solid;
+    border-top-color: rgb(136, 96, 208);
+}
+@font-face {
+    font-family: "font Montserrat";
+    src: url('../Montserrat.otf');
+
+}
+
+
+.digital {
+    font-family: "font Montserrat";
+}
+/*untuk tombol*/
+.icon-bar{
+    background-color: white!important;
+}
+.navbar-inverse .navbar-toggle{
+    border-color: transparent !important;
+}
+.navbar-inverse .navbar-toggle:hover, .navbar-inverse .navbar-toggle:focus{
+    background-color: #c1c8e4!important;
+}
+.navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form{
+    border-color: white!important;
+}
+
+/*untuk tombol*/
+/*untuk navbar*/
+.navbar-inverse{
+    background-color: #5680E9;
+    border-color: #5680E9;
+}
+.navbar-inverse .navbar-brand{
+    color: white;
+}
+.navbar-inverse .navbar-nav > li > a{
+    color: white;
+    font-size: 15px;
+}
+.mar{
+    margin-right: 30px;
+}
+.marl{
+    margin-left: 40px;
+}
+.navbar-brand{
+    font-size: 20px;
+}
+.navbar b:hover{
+    color: #84ceeb;
+}
+.navbar header{
+
+}
+    /*untuk navbar*/
+/*jumbotron*/
+.jumbotron {
+    position: relative;
+    padding-top: 150px;
+    padding-bottom: 250px;
+    background: url("../images/li.png");
+    background-size: cover;
+    background-attachment: fixed;
+    box-shadow: 0 6px 6px rgba(0,0,0,0.3);
+}
+.jumbotron p {
+    margin-bottom: 10px;
+    font-size: 19px;
+    color: white;
+}
+
+.miring a{
+    margin: 6px;
+}
+h2{
+    color: white;
+}
+h1, .h1, h2, .h2, h3, .h3 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.jumbotron .btn-primary {
+    color: white;
+    background-color: #5680e9;
+    border-color: #5680e9;
+    border-radius: 25px;
+}
+.jumbotron .btn-default{
+    border-radius: 25px;
+    background-color: transparent;
+    color: white;
+}
+.jumbotron b:hover{
+    color: #5680e9;
+}
+
+.tentang p{
+    text-align: center;
+}
+.tentang .btn-primary {
+    color: white;
+    background-color: #5680e9;
+    border-color: #5680e9;
+    border-radius: 25px;
+}
+.tentang .btn-default{
+    border-radius: 25px;
+    background-color: white;
+    color: black;
+}
+.other .btn-primary {
+    color: white;
+    background-color: #5680e9;
+    border-color: #5680e9;
+    border-radius: 25px;
+}
+.other .btn-default{
+    border-radius: 25px;
+    background-color: white;
+    color: black;
+}
+.other .modal-body{
+    text-align: left;
+}
+/*jumbotron*/
+/*hiasan*/
+.hias{
+    background-color: #5AB9EA;
+    text-align: center;
+    padding: 50px;
+    box-shadow: 0 6px 6px rgba(0,0,0,0.3);
+    width: 100% !important;
+}
+.hias h3{
+    color: white;
+    font-size: 18px;
+}
+.hias .glyphicon{
+    color: white;
+    font-size: 30px;
+}
+/*hiasan*/
+/*pembicara*/
+.thumbnail img{
+    height: 300px;
+    width: 250px;
+}
+.thumbnail{
+    box-shadow: 0 6px 6px rgba(0,0,0,0.2);
+}
+.pembicara{
+    background-color: #eeeeee;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.thumbnail .btn-primary {
+    color: white;
+    background-color: #5680e9;
+    border-color: #5680e9;
+    border-radius: 25px;
+}
+/*pembicara*/
+/*JADWAL*/
+.jadwal {
+    background-color: #5AB9EA;
+    text-align: center;
+    padding: 50px;
+    box-shadow: 0 6px 6px rgba(0,0,0,0.3);
+}
+.jadwal h3{
+    color: white;
+    font-size: 18px;
+}
+.jadwal .glyphicon{
+    color: white;
+    font-size: 30px;
+}
+.jadwal p{
+    color: white;
+}
+/*JADWAL*/
+/*gallery*/
+.gallery img{
+    width: 100%;
+    z-index: 2;
+}
+.gallery > div > div:hover{
+    transition:all .2s ease-out; /* transisi all */
+    transition:all .2s ease-in;
+    box-shadow: 0 6px 6px rgba(0,0,0,0.5);
+}
+.gallery .col-md-4{
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+/*pembicara*/
+/*sponsor*/
+.sponsor{
+    background-color: #eeeeee;
+    padding-bottom: 100px;
+    padding-top: 100px;
+}
+.sponsor img{
+    width: 100px;
+    margin: auto;
+
+}
+/*pembicara*/
+/*lokasi*/
+.peta iframe {
+    width:100%;
+    height:450px;
+}
+/*lokasi*/
+/*kontak*/
+.kontak{
+    text-align: center;
+}
+.kontak .glyphicon{
+    font-size: 30px;
+}
+.kontak .glyphicon:hover{
+    color: #5ab9ea;
+}
+.kontak p{
+    margin-top: 10px;
+}
+.kontak th{
+    text-align: center;
+}
+/*kontak*/
+/*footer*/
+.footer{
+    background-color: #5080e9;
+    padding: 30px;
+}
+.fa{
+    color: white;
+}
+.footer i:hover{
+    color: #5AB9EA;
+}
+.footer .margin{
+    margin-top: 50px;
+}
+.footer a{
+    padding: 20px;
+}
+.footer p{
+    color: white;
+}
+.footer b{
+    color: #84ceeb;
+}
+/*footer*/
+/*arsip*/
+.arsip .panel-primary{
+    border-color: #5080e9;
+}
+.arsip .panel-primary > .panel-heading {
+    color: #fff;
+    background-color: #5080e9;
+    border-color: #5080e9;
+}
